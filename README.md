@@ -71,20 +71,30 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.27** — 2026-09-06
+  - The engine log now speaks plain English. Instead of pages of technical output from the helper, you see short lines like "Loaded classic-tee-male.ydd." The full technical output is still there behind a "Show technical details" switch in Settings > Engine.
+  - Bug reports sent from Settings > Help & support now include that technical log automatically, so you never have to copy anything.
+
+**v1.0.26** — 2026-09-06
+  - A brand-new layout. Everything is on one screen now: pick a garment on the left, design the fabric in the middle, and watch it appear on the character on the right, live as you work. No more stepping through pages.
+  - Export is one clear panel: it checks your design, builds the folder, and shows you exactly the two lines to add to your server.
+  - Settings is a single tidy panel with tabs for Updates, Engine, Help & support and About. Bug reports are sent from there.
+  - Fixed: parts of the app could be cut off by the edge of the window on smaller screens. The window now fits your screen and every panel resizes properly.
+  - New in the designer: quick-pick colours, a hex colour box, size and turn sliders plus a Centre button for logos, the Delete key removes a logo, and colourways have their own list.
+
+**v1.0.25** — 2026-09-05
+  - Fixed: exporting a hat from your own model file without the engine set up showed an error even though your files had been written.
+  - Fixed: the Reset view button in the 3D preview now works.
+  - Fixed: a hiccup on our end during the license check could send you back to the activation screen. The app now rides it out the same way it does a dropped internet connection.
+  - Fixed: picking an image the app could not read left the Add logo and Import texture buttons stuck. It now tells you and lets you try another file.
+  - Smoother 3D preview when switching between colourways many times, plus small reliability fixes to engine setup and activation.
+
+**v1.0.24** — 2026-08-18
+  - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
+  - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
+
 **v1.0.23** — 2026-07-21
   - Fixed the design-bake so the exported model keeps its geometry and your texture together.
-
-**v1.0.22** — 2026-07-21
-  - Your design now actually bakes into the exported clothing model (rebuilt the export so the texture sticks).
-
-**v1.0.21** — 2026-07-21
-  - Behind-the-scenes work on the clothing texture export engine.
-
-**v1.0.20** — 2026-07-21
-  - Fixed the exported clothing not registering on servers (removed a bad metadata reference) and made the design-bake verify itself.
-
-**v1.0.19** — 2026-07-21
-  - Your design now gets baked into the clothing model itself on export — the first working end-to-end custom garment.
 
 Full history → **[kvrnl.io/changelog/fitmaker](https://kvrnl.io/changelog/fitmaker/)**
 
