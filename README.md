@@ -71,6 +71,12 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.30** — 2026-09-25
+  - New: FitMaker can now send usage and error reports, for example when an export finishes or fails, when engine setup runs into trouble, or when the app crashes. That way problems get found and fixed faster.
+  - Reports never include your designs, your images, or any file or design names. They're only sent from an activated copy, and if you're offline they wait until you're back online.
+  - You're in control: switch usage and error reports off anytime in Settings, under Help & support. Switching them off also deletes anything still waiting to be sent.
+  - The activation screen now explains what FitMaker sends and where to turn it off.
+
 **v1.0.29** — 2026-09-25
   - Fixed: at some window sizes your exported design came out one pixel too small, which the game can refuse to load. Exports are now always the exact size the game expects.
   - The Classic Tee is made for the male character, so FitMaker now keeps it on Male. Exporting it for the female character gave a broken result in-game.
@@ -98,13 +104,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
   - Settings is a single tidy panel with tabs for Updates, Engine, Help & support and About. Bug reports are sent from there.
   - Fixed: parts of the app could be cut off by the edge of the window on smaller screens. The window now fits your screen and every panel resizes properly.
   - New in the designer: quick-pick colours, a hex colour box, size and turn sliders plus a Centre button for logos, the Delete key removes a logo, and colourways have their own list.
-
-**v1.0.25** — 2026-09-05
-  - Fixed: exporting a hat from your own model file without the engine set up showed an error even though your files had been written.
-  - Fixed: the Reset view button in the 3D preview now works.
-  - Fixed: a hiccup on our end during the license check could send you back to the activation screen. The app now rides it out the same way it does a dropped internet connection.
-  - Fixed: picking an image the app could not read left the Add logo and Import texture buttons stuck. It now tells you and lets you try another file.
-  - Smoother 3D preview when switching between colourways many times, plus small reliability fixes to engine setup and activation.
 
 Full history → **[kvrnl.io/changelog/fitmaker](https://kvrnl.io/changelog/fitmaker/)**
 
