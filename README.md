@@ -71,6 +71,15 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.29** — 2026-09-25
+  - Fixed: at some window sizes your exported design came out one pixel too small, which the game can refuse to load. Exports are now always the exact size the game expects.
+  - The Classic Tee is made for the male character, so FitMaker now keeps it on Male. Exporting it for the female character gave a broken result in-game.
+  - Fixed: typing a full colour code like #8A1A1A into the colour box no longer gets changed while you type.
+  - If your design can't be built into the garment, FitMaker now tells you and saves your colourways as images, instead of saying the export finished.
+  - Updates now wait until an export or engine setup has finished, instead of restarting FitMaker in the middle of it.
+  - Engine setup is more reliable: a stalled download now stops with a clear message, and a setup that was interrupted halfway is noticed and done again properly.
+  - Smaller fixes: the 3D preview always shows the colourway you picked last, logos can't be dragged off the fabric and lost, and very large images get a clear message instead of slowing the app down.
+
 **v1.0.28** — 2026-09-25
   - The activation screen is redesigned. It walks you through getting your free key step by step: create a free KVRNL account, click Get FitMaker on its page, then copy your key from your account page. Each step has its own button, so it's easy even if you downloaded FitMaker from somewhere other than kvrnl.io.
   - Pasting your key is easier: there's a Paste button, right-click paste works, and extra spaces or line breaks picked up while copying are cleaned up for you.
@@ -96,10 +105,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
   - Fixed: a hiccup on our end during the license check could send you back to the activation screen. The app now rides it out the same way it does a dropped internet connection.
   - Fixed: picking an image the app could not read left the Add logo and Import texture buttons stuck. It now tells you and lets you try another file.
   - Smoother 3D preview when switching between colourways many times, plus small reliability fixes to engine setup and activation.
-
-**v1.0.24** — 2026-08-18
-  - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
-  - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
 
 Full history → **[kvrnl.io/changelog/fitmaker](https://kvrnl.io/changelog/fitmaker/)**
 
