@@ -71,6 +71,14 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.28** — 2026-09-25
+  - The activation screen is redesigned. It walks you through getting your free key step by step: create a free KVRNL account, click Get FitMaker on its page, then copy your key from your account page. Each step has its own button, so it's easy even if you downloaded FitMaker from somewhere other than kvrnl.io.
+  - Pasting your key is easier: there's a Paste button, right-click paste works, and extra spaces or line breaks picked up while copying are cleaned up for you.
+  - When something is wrong with a key, the message now says exactly what to do, with a button that takes you straight to the fix, like releasing your key from an old PC.
+  - On a slow connection, FitMaker now shows a Checking your license screen when it starts instead of a blank wait.
+  - Your license is better protected. It stays tied to your own PC, and FitMaker can't be used until it's activated.
+  - Fixed: an update could restart FitMaker while you were typing your key, and pressing Enter several times could send your key more than once.
+
 **v1.0.27** — 2026-09-06
   - The engine log now speaks plain English. Instead of pages of technical output from the helper, you see short lines like "Loaded classic-tee-male.ydd." The full technical output is still there behind a "Show technical details" switch in Settings > Engine.
   - Bug reports sent from Settings > Help & support now include that technical log automatically, so you never have to copy anything.
@@ -92,9 +100,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 **v1.0.24** — 2026-08-18
   - Downloads and automatic updates now come straight from KVRNL's own servers instead of a third-party host. Updates are quicker and more reliable, and nothing inside the app itself has changed.
   - If you installed this app before today, please download it once more from kvrnl.io. Older copies still look for updates at the old location and can't carry themselves across the move — this one time has to be done by hand.
-
-**v1.0.23** — 2026-07-21
-  - Fixed the design-bake so the exported model keeps its geometry and your texture together.
 
 Full history → **[kvrnl.io/changelog/fitmaker](https://kvrnl.io/changelog/fitmaker/)**
 
