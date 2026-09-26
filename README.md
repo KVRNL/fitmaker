@@ -71,6 +71,10 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.32** — 2026-09-26
+  - Security: FitMaker now checks itself every time it starts and won't open if its files have been tampered with. Nothing on your PC is changed or removed.
+  - Privacy: bug reports you send from Settings no longer include your Windows user name, and the technical details attached to them have your folders and names removed.
+
 **v1.0.31** — 2026-09-26
   - Fixed: on PCs that can't show 3D graphics, for example with an older graphics card, over remote desktop, or with graphics acceleration turned off, FitMaker no longer stops working. The 3D preview now says it isn't available on that PC, and everything else, including exports, works as normal.
   - Usage reports now describe your PC more accurately, like your Windows version, your real screen resolution and your graphics card, so problems on particular setups are easier to spot. As before, you can turn reports off in Settings, under Help & support.
@@ -97,10 +101,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
   - On a slow connection, FitMaker now shows a Checking your license screen when it starts instead of a blank wait.
   - Your license is better protected. It stays tied to your own PC, and FitMaker can't be used until it's activated.
   - Fixed: an update could restart FitMaker while you were typing your key, and pressing Enter several times could send your key more than once.
-
-**v1.0.27** — 2026-09-06
-  - The engine log now speaks plain English. Instead of pages of technical output from the helper, you see short lines like "Loaded classic-tee-male.ydd." The full technical output is still there behind a "Show technical details" switch in Settings > Engine.
-  - Bug reports sent from Settings > Help & support now include that technical log automatically, so you never have to copy anything.
 
 Full history → **[kvrnl.io/changelog/fitmaker](https://kvrnl.io/changelog/fitmaker/)**
 
