@@ -71,6 +71,10 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 
 ## What's new
 
+**v1.0.31** — 2026-09-26
+  - Fixed: on PCs that can't show 3D graphics, for example with an older graphics card, over remote desktop, or with graphics acceleration turned off, FitMaker no longer stops working. The 3D preview now says it isn't available on that PC, and everything else, including exports, works as normal.
+  - Usage reports now describe your PC more accurately, like your Windows version, your real screen resolution and your graphics card, so problems on particular setups are easier to spot. As before, you can turn reports off in Settings, under Help & support.
+
 **v1.0.30** — 2026-09-25
   - New: FitMaker can now send usage and error reports, for example when an export finishes or fails, when engine setup runs into trouble, or when the app crashes. That way problems get found and fixed faster.
   - Reports never include your designs, your images, or any file or design names. They're only sent from an activated copy, and if you're offline they wait until you're back online.
@@ -97,13 +101,6 @@ none of your files. Full policy: **[kvrnl.io/privacy](https://kvrnl.io/privacy/)
 **v1.0.27** — 2026-09-06
   - The engine log now speaks plain English. Instead of pages of technical output from the helper, you see short lines like "Loaded classic-tee-male.ydd." The full technical output is still there behind a "Show technical details" switch in Settings > Engine.
   - Bug reports sent from Settings > Help & support now include that technical log automatically, so you never have to copy anything.
-
-**v1.0.26** — 2026-09-06
-  - A brand-new layout. Everything is on one screen now: pick a garment on the left, design the fabric in the middle, and watch it appear on the character on the right, live as you work. No more stepping through pages.
-  - Export is one clear panel: it checks your design, builds the folder, and shows you exactly the two lines to add to your server.
-  - Settings is a single tidy panel with tabs for Updates, Engine, Help & support and About. Bug reports are sent from there.
-  - Fixed: parts of the app could be cut off by the edge of the window on smaller screens. The window now fits your screen and every panel resizes properly.
-  - New in the designer: quick-pick colours, a hex colour box, size and turn sliders plus a Centre button for logos, the Delete key removes a logo, and colourways have their own list.
 
 Full history → **[kvrnl.io/changelog/fitmaker](https://kvrnl.io/changelog/fitmaker/)**
 
